@@ -1,6 +1,9 @@
 # coding: utf-8
 import boto3
+<<<<<<< HEAD
 session = boto3.Session(profile_name='fbiPythonAutomation')
+=======
+>>>>>>> b27b6202de91283186c9076c297441d229659730
 session = boto3.Session(profile_name='fbiAgent')
 s3 = session.resource('s3')
 bucket = s3.create_bucket(Bucket='fbivideolyzervideos')
